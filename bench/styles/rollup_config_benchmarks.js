@@ -8,7 +8,7 @@ const plugins = () => basePlugins().concat(
         'process.env.BENCHMARK_VERSION': JSON.stringify(process.env.BENCHMARK_VERSION),
         'process.env.MAPBOX_ACCESS_TOKEN': JSON.stringify(process.env.MAPBOX_ACCESS_TOKEN),
         'process.env.MapboxAccessToken': JSON.stringify(process.env.MapboxAccessToken),
-        'process.env.MAPBOX_STYLE_URL': JSON.stringify(process.env.MAPBOX_STYLE_URL),
+        'process.env.MAPBOX_STYLE': JSON.stringify(process.env.MAPBOX_STYLE),
         'process.env.MapboxStyleURL': JSON.stringify(process.env.MapboxStyleURL),
         'process.env.NODE_ENV': JSON.stringify(process.env.NODE_ENV)
     })

@@ -6,7 +6,7 @@ import updateUI from '../benchmarks_view';
 
 mapboxgl.accessToken = accessToken;
 
-const urls = (process.env.MAPBOX_STYLE_URL || 'mapbox://styles/mapbox/streets-v10').split(',');
+const urls = (process.env.MAPBOX_STYLE || 'mapbox://styles/mapbox/streets-v10').split(',');
 const benchmarks = [];
 const filter = window.location.hash.substr(1);
 

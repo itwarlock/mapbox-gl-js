@@ -69,6 +69,7 @@
     "npm-run-all": "^4.0.1",
     "nyc": "^13.1.0",
     "object.entries": "^1.0.4",
+    "pify": "^4.0.1",
     "pirates": "^3.0.2",
     "pngjs": "^3.3.3",
     "postcss-cli": "^5.0.0",
